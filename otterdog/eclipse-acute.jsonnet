@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-acute') {
+orgs.newOrg('tools.acute', 'eclipse-acute') {
   settings+: {
     description: "C# and .NET Core development tools in Eclipse IDE",
     name: "Eclipse aCute",
